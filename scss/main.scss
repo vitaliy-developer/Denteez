@@ -1,0 +1,226 @@
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+.container {
+	max-width: 970px;
+	margin: 0 auto;
+}
+.header	{
+	background: #87b448;
+}
+.header__main {
+	display: flex;
+}
+.logo {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.companyName {
+	margin-top: 16px;
+	width: 433px;
+	text-decoration: none;
+	color: #FFFFFF;
+	background: #73993d;
+	outline: none;
+	border: 0px;
+	padding: 11px 0;
+	padding-left: 37px;
+	margin-left: 30px;
+}
+.form {
+	position: relative;
+}
+.search {
+	position: absolute;
+	left: 9%;
+	top: 42%;
+}
+.nav {
+	display: flex;
+	align-items: center;
+	margin-left: 30px;
+}
+.chat {
+	margin-right: 18px;
+}
+.notifications {
+	margin-right: 35px;
+}
+.pict {
+	margin-right: 11px;
+}
+.maximillian {
+	color: #ffffff;
+}
+/*Первая часть*/
+.section-main {
+	display: flex;
+}
+.one {
+	max-width: 227px;
+}
+.two {
+	max-width: 487px;
+	margin-left: 15px;
+}
+.three {
+	margin-left: 15px;
+	min-width: 228px;
+}
+.imgO {
+	background: url("../img/Feed.png") no-repeat center left;
+}
+.imgT {
+	background: url("../img/Ask.png") no-repeat center left;
+}
+.ingT {
+	background: url("../img/Companies.png") no-repeat center left;
+}
+.imgF {
+	background: url("../img/Services.png") no-repeat center left;
+}
+.menu__text {
+	font-size: 16px;
+	color: #6f757f;
+	padding-left: 27px;
+	padding-top: 10px;
+	padding-bottom: 13px;
+	border-bottom: 1px solid #6f757f;
+	cursor: pointer;
+}
+.menu__text:hover {
+	color: #77c100cf;
+}
+.advertisement__text {
+	font-size: 14px;
+	color: #7c8695;
+	margin: 20px 0;
+}
+.address {
+	font-size: 11px;
+	padding-top: 8px;
+	padding-bottom: 20px;
+	color: #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+	cursor: pointer;
+}
+.featuredCompanies {
+	margin: 20px 0px;
+}
+.featuredCompanies-text {
+	font-size: 14px;
+	color: #6f757f;
+}
+.featuredCompanies-span {
+	color: black;
+	float: right;
+	font-weight: bold;
+}
+.companyList {
+	display: flex;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.description {
+	margin-left: 10px;
+}
+.company-title {
+	font-size: 16px;
+}
+.country {
+	font-size: 14px;
+	color: #7c8695;
+	margin: 10px 0;
+}
+.followNow {
+	font-size: 12px;
+}
+.companyListBorder {
+	border-bottom: 1px solid #d3d3d3;
+	padding-bottom: 19px;
+}
+.footer {
+	padding-top: 18px;
+	font-size: 12px;
+	color: #b7bfcd;
+}
+.policy {
+	margin-left: 21px;
+}
+.terms {
+	padding-top: 20px;
+	color: #b7bfcd;
+}
+/*Вторая часть */
+.serviceDirectory {
+	display: flex;
+	margin-top: 11px;
+	margin-bottom: 19px;
+}
+.serviceDirectory-btn {
+	padding: 9px 19px;
+	color: #ffffff;
+	background: #87b448;
+	border-radius: 7px;
+	outline: none;
+	border: 0;
+}
+.serviceDirectory-btn:hover {
+	background: #28d846;
+	cursor: pointer;
+}
+.servicedtext {
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 116px;
+}
+.addNew {
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid #e0e2e6;
+	border-radius: 5px;
+	justify-content: space-around;
+	margin-bottom: 71px;
+
+}
+.addNew-item {
+	margin-top: 15px;
+}
+.addNew-img {
+	border: 1px solid #e0e2e6;
+	padding: 35px;
+	border-radius: 3px;
+}
+.addNew-text {
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 17px;
+	padding-bottom: 35px;
+}
+.addNew-img:hover {
+	background: #f4f7fb;
+	color: #71973c;
+	cursor: default;
+}
+.addNew-text:hover {
+	 color: #71973c;
+	 cursor: default;
+ }
+ /*Третья часть */
+.featuredCompanies-theree {
+	margin: 20px 0;
+}
+.company-theree {
+	color: #7c8695;
+}
+.famnam {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.address-theree {
+	border-bottom: 0px;
+}

@@ -1,0 +1,60 @@
+@media screen and (max-width: 970px) {
+  .companyName {
+    max-width: 371px;
+  }
+}
+@media screen and (max-width: 790px) {
+  .companyName {
+    max-width: 168px;
+  }
+  .search {
+    left: 19%;
+  }
+  .serviceDirectory {
+    flex-wrap: wrap;
+  }
+  .servicedtext {
+    margin-right: 0;
+  }
+  .featuredCompanies-span {
+    float: none;
+  }
+  .three {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 600px) {
+  .section-main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .advertising {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+  .header__main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .companyName {
+    max-width: 260px;
+  }
+  .search {
+    left: 14%;
+    top: 49%;
+  }
+  .nav {
+    margin: 9px 0px;
+  }
+  .servicedtext {
+    margin: 0 auto;
+  }
+  .serviceDirectory {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 320px) {
+
+}
